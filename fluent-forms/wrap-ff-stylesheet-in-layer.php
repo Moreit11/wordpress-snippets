@@ -1,4 +1,6 @@
 <?php
+// This snippet disabled Fluent Forms default public styles
+// Blog article: https://moritzreitz.com/blog/web-development/how-to-wrap-wordpress-plugin-stylesheets-in-css-cascade-layers/
 //1. DISABLE PUBLIC STYLESHEET
 function disable_default_stylesheets() {
   // deregister puplic styles
